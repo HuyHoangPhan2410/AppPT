@@ -1,0 +1,38 @@
+.DS_Store
+node_modules
+/dist
+
+
+
+# local env files
+.env.local
+.env.*.local
+*/application-local.properties
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backend (Spring Boot & Java)
+backend/target/
+target/
+*.jar
+*.war
+*.ear
+*.class
+.mvn/
+backend/.mvn/
+.settings/
+.classpath
+.project
